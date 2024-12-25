@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
 import Home from "./routes/home/home.component";
-import Navigation from "./components/navigation/navigation.component";
+import Navigation from "./routes/navigation/navigation.component";
 import Authentication from "./routes/authentication/authentication.component";
 
 const Shop = () => {
