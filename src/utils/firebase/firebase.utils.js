@@ -1,9 +1,9 @@
- // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import {
     getAuth,
     signInWithPopup,
     GoogleAuthProvider,
+    signInWithRedirect,
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
     signOut,
@@ -33,11 +33,11 @@ googleProvider.setCustomParameters({
 
 export const auth = getAuth();
 export const signInWithGooglePopup = () => signInWithPopup(auth, googleProvider);
-export const signInWithGoogleRedirect = () => signInWithGoogleRedirect(auth, googleProvider);
+export const signInWithGoogleRedirect = () => signInWithRedirect(auth, googleProvider);
 
 export const db = getFirestore();
 
-export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {
+export const addCollectionAndDocuments = async (collectionKey, objectsToAdd, field) => {
     const collectionRef = collection(db, collectionKey);
     const batch = writeBatch(db);
 
@@ -56,7 +56,7 @@ export const getCategoriesAndDocuments = async () => {
     const q = query(collectionRef);
 
     const querySnapshot = await getDocs(q);
-    return querySnapshot.docs.map(docSnapshot => docSnapshot.data());
+    return querySnapshot.docs.map((docSnapshot) => docSnapshot.data());
 }
 
 
@@ -83,7 +83,7 @@ export const createUserDocumentFromAuth = async (userAuth, additionalInformation
         }
     }
 
-    return userDocRef;
+    return userSnapshot;
 }
 
 export const createAuthUserWithEmailAndPassword = async (email, password) => {

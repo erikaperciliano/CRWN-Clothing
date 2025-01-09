@@ -1,10 +1,7 @@
 import { useEffect } from "react";
 import { Route, Routes } from "react-router";
 
-import { getCurrentUser, onAuthStateChangedListener } from "./utils/firebase/firebase.utils";
-import { createUserDocumentFromAuth } from "./utils/firebase/firebase.utils";
-
-import { setCurrentUser } from "./store/user/user.action";
+import { checkUserSession } from "./store/user/user.action";
 import Home from "./routes/home/home.component";
 import Navigation from "./routes/navigation/navigation.component";
 import Authentication from "./routes/authentication/authentication.component";
@@ -16,7 +13,7 @@ const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    getCurrentUser().then((user) => console.log(user));
+    dispatch(checkUserSession());
   }, []);
 
   return (
