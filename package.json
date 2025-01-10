@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
+    "@stripe/react-stripe-js": "^3.1.1",
+    "@stripe/stripe-js": "^5.5.0",
     "cra-template": "1.2.0",
+    "dotenv": "^16.4.7",
     "firebase": "^11.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -18,10 +21,12 @@
     "redux-thunk": "^3.1.0",
     "reselect": "^5.1.1",
     "sass": "^1.83.0",
+    "stripe": "^17.5.0",
     "styled-components": "^6.1.13"
   },
   "scripts": {
     "start": "react-scripts start",
+    "netlify": "ntl dev",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
