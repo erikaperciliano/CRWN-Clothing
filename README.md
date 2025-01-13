@@ -1,4 +1,4 @@
-CRWN-Clothing 🛒
+# CRWN-Clothing 🛒
 
 CRWN-Clothing is a modern e-commerce web application that allows users to browse items by categories, manage a shopping cart, and securely handle payments. The app offers a seamless shopping experience with real-time updates and smooth user interactions.
 
@@ -17,37 +17,39 @@ Features 🚀
 - Firebase Integration:
 - Backend storage and database management using Firebase.
 
-Technologies Used 🛠️
-Frontend:
+## Technologies Used 🛠️
+## Frontend:
 - React: For building a dynamic and responsive user interface.
 - Redux: To manage application state seamlessly.
 - CSS/SASS: For styling the application.
 
-Backend:
+## Backend:
 - Firebase:
  - User authentication.
  - Real-time database for storing user and cart information.
 
-Payment Integration:
+## Payment Integration:
 - Stripe API: Secure handling of online payments.
 
-Getting Started 💻
+## Getting Started 💻
 Prerequisites:
  - Node.js (v14+ recommended)
  - npm or yarn
 
-Installation:
+## Installation:
 1- Clone the repository:
-    git clone https://github.com/your-username/CRWN-Clothing.git
+
+    git clone [https://github.com/your-username/CRWN-Clothing.git](https://github.com/erikaperciliano/CRWN-Clothing)
+    
 2 - Navigate to the project directory:
     cd CRWN-Clothing
 3 - Install dependencies:
+
     npm install
 or
     yarn install
 
 4 - Set up your Firebase project:
-
     - Create a Firebase project at Firebase Console.
     - Enable authentication and set up a Firestore database.
     - Add your Firebase configuration to the project.
@@ -56,20 +58,22 @@ or
     - Create a Create a Stripe account at Stripe Dashboard.
     - Add your Stripe API keys to the environment variables.
 6 - Start the development server:
+
     npm start
 or 
+
     yarn start
 
-Deployment:
+## Deployment:
 This project can be deployed to any static hosting provider (e.g., Netlify, Vercel) or Firebase Hosting.
 
-Screenshots 📸
+## Screenshots 📸
 
-Contribution 🤝
+## Contribution 🤝
 Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page.
 
-Acknowledgements 🙌
+## Acknowledgements 🙌
  - Stripe API
  - Firebase
  - React
