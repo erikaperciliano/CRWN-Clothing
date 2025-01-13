@@ -67,7 +67,42 @@ or
 ## Deployment:
 This project can be deployed to any static hosting provider (e.g., Netlify, Vercel) or Firebase Hosting.
 
+## Live Demo
+
+[View the live project here](https://euphonious-chebakia-dad851.netlify.app/)
+
+
 ## Screenshots 📸
+
+- Authentication:
+
+  ![CRWN-Cloting - Authentication](https://github.com/user-attachments/assets/d11a3f73-b7d1-4747-9892-ea46847421df)
+
+- Home:
+
+![CRWN-Cloting - Home](https://github.com/user-attachments/assets/6745a969-9885-42d8-860d-80fa18262586)
+
+- Shop:
+
+![CRWN-Cloting - Shop](https://github.com/user-attachments/assets/aafd303c-9b42-4c76-8c9f-139b1fe35947)
+
+- Category:
+
+![CRWN-Cloting - Category](https://github.com/user-attachments/assets/eef45e8f-edf7-432b-b5db-9433c2247ad6)
+
+- Cart:
+
+![CRWN-Cloting - Cart](https://github.com/user-attachments/assets/f41696a8-eb17-4c67-ab07-c28a16799e2c)
+
+- Checkout:
+
+![CRWN-Cloting - Checkout](https://github.com/user-attachments/assets/c1f538bd-f781-472d-84dd-fadc0c55f04a)
+
+![CRWN-Cloting - Checkout 2](https://github.com/user-attachments/assets/bdbfba78-2975-43af-a428-5335dc4c2b26)
+
+
+
+
 
 ## Contribution 🤝
 Contributions, issues, and feature requests are welcome!
