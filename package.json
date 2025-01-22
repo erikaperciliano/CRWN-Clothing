@@ -55,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "@types/redux-logger": "^3.0.13",
     "web-vitals": "^4.2.4"
   }
 }
