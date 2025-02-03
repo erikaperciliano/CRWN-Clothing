@@ -22,9 +22,9 @@ describe('button tests', () => {
 
     test('should render inverted button when passed inverted button type', () => {
         render(<Button buttonType={BUTTON_TYPE_CLASSES.inverted} />);
-
+    
         const invertedButtonElement = screen.getByRole('button');
-
+    
         expect(getComputedStyle(invertedButtonElement).backgroundColor).toBe('black');
     });
 
