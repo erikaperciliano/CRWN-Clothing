@@ -1,4 +1,3 @@
-import { screen } from '@testing-library/react';
 import { categoriesReducer, CATEGORIES_INITIAL_STATE } from '../category.reducer';
 
 import { fetchCategoriesStart, fetchCategoriesSuccess, fetchCategoriesFailed } from '../category.action';
